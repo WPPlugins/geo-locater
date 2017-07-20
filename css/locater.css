@@ -1,0 +1,49 @@
+#suggestion_box ul
+{
+    list-style: none;
+    margin: 1px;
+    width: 300px;
+}
+#suggestion_box ul li
+{
+    display: block;
+    padding: 5px;
+    background-color: #eee;
+    border-bottom: 1px solid #367;
+    font-size:12px;
+}
+
+#clear
+{ clear:both; }
+
+#suggestion_box input[type=text]
+{width:330px; height:35px;}
+#suggestion_box ul input[type=submit]
+{
+    width:90px; height:35px;
+}
+.locater-ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px; /* -1 * image width / 2 */
+    margin-top: -32px; /* -1 * image height / 2 */
+}
+.locater_map {
+    background-color:#eee;
+}
+
+#location_form input[type=text], #location_form textarea {
+	padding-top: 10px;
+	width: 471px;
+	margin: 0px 0px 10px 0px;
+	
+}
+
+#location_form label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	
+}
